@@ -10,6 +10,7 @@ public class Debbuger : MonoBehaviour
 
     void Start()
     {
+        //инпинкапсулированная инициализация
         ClassicHotDog classicHotDog = new ClassicHotDog(classicHotDogData);
         DecoratedClassicHotDog classicHotDogWithCucumber = new DecoratedClassicHotDog(classicHotDogWithCucumberData, classicHotDog);
         DecoratedClassicHotDog classicHotDogWithOnion = new DecoratedClassicHotDog(classicHotDogWithOnionData, classicHotDog);
