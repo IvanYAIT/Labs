@@ -2,6 +2,7 @@
 {
     public class ClassicHotDog : HotDog
     {
+        //Конструктор
         public ClassicHotDog(HotDogData hotDogData) : base(hotDogData)
         {
         }

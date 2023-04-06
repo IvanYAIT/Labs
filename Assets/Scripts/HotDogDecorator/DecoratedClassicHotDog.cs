@@ -4,6 +4,7 @@
     {
         protected Ingredient ingredient;
 
+        //Конструктор
         public DecoratedClassicHotDog(HotDogData hotDogData, HotDog hotDog) : base(hotDogData, hotDog)
         {
             ingredient = hotDogData.extraIngredient;

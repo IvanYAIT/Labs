@@ -3,6 +3,7 @@ using HotDog;
 
 public class Debbuger : MonoBehaviour
 {
+    //сериализованное поля
     [SerializeField] private HotDogData classicHotDogData;
     [SerializeField] private HotDogData classicHotDogWithCucumberData;
     [SerializeField] private HotDogData classicHotDogWithOnionData;

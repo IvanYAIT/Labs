@@ -4,6 +4,7 @@ namespace HotDog
     {
         public HotDogData HotDogData { get; protected set; }
 
+        //Конструктор
         protected HotDog(HotDogData hotDogData)
         {
             HotDogData = hotDogData;

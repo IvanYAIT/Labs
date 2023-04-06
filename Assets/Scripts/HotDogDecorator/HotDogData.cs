@@ -6,6 +6,7 @@ namespace HotDog
     [CreateAssetMenu(fileName = "HotDogData", menuName = "SO/NewHotDogData")]
     public class HotDogData : ScriptableObject
     {
+        //сериализованное поля
         public string name;
         public int cost;
         public int weight;
